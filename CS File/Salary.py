@@ -1,0 +1,16 @@
+name=input("Enter name: ")
+age=int(input("Enter age: "))
+salary=float(input("Enter salary: "))
+hra=0.05*salary
+da=0.1*salary
+pf=0.12*salary
+gross=hra+da+salary
+net=gross-pf
+print("name=",name)
+print("age=",age)
+print("salary=",salary)
+print("HRA=",hra)
+print("DA=",da)
+print("PF=",pf)
+print("gross salary=",gross)
+print("net salary=",net) 
